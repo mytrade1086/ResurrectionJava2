@@ -7,7 +7,7 @@ public class AbstractClassImplementing extends AbstractClassWithMethod {
 	System.out.println("Implemented Abstract Method");
 		
 	}
-
+	
 	
 	public static void main(String[] args) {
 		AbstractClassImplementing ac=new AbstractClassImplementing();
