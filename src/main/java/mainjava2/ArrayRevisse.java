@@ -50,6 +50,19 @@ public class ArrayRevisse {
 			}	
 			System.out.println(" ");		
 		}
+		
+		//
+		//#One of the style
+				int[]c=new int[] {111,222,333};
+				
+				for (int ele : c) {
+					System.out.println(ele);
+					/*
+					   111
+					   222
+					   333
+					 */
+				}
 
 	}
 }
