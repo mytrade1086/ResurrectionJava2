@@ -16,7 +16,12 @@ public class EqualsvsReferenceComparison {
 		String s3="sumit";//points to SCP object now
 		String s4="sumit";
 		
-		String s6=new String("sumit");
+		String s6=new String("sumit");  //1. Creates new object on heap. Checks if we have "sumit" in SCP. 
+		                               // if yes just point to SCP. No new Object.
+		
+		System.out.println("Check if s1 and s6 "+s1==s6);//false as two different object on heap
+		
+		System.out.println("HI");
 		
 		
 		String s5=new String ("Amit");
