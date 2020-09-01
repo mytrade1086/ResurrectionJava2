@@ -5,10 +5,11 @@ public class Array2 {
 	public static void main(String[] args) {
 
 		int[] demo = new int[3]; // physical size is denoted
-		System.out.println(demo.length); // 3 [ 0 1 2 3]
-
+		System.out.println(demo.length); // 3     index will be[ 0 1 2 3]
+		System.out.println(demo.getClass());
 		for (int i = 0; i < demo.length; i++) {
 			System.out.println("int array. index:" + i + " " + demo[i]);
+			
 			// Default values of integer printed
 //			int array. index:0 0
 //			int array. index:1 0

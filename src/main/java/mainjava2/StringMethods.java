@@ -57,6 +57,15 @@ public class StringMethods {
 		System.out.println("A".compareTo("B"));//-1
 		System.out.println("B".compareTo("A"));//1
 		
+		String text1="java";
+		String text2="neha";
+		
+		System.out.println("text1 compared to text2" +text1.compareTo(text2));//-4
+		System.out.println("text2 compared to text1" +text2.compareTo(text1));//4
+		
+		System.out.println("B".compareTo("A"));//1
+		System.out.println("C".compareTo("A"));//2
+		
 		
 		
 		
