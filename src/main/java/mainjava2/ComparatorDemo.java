@@ -52,9 +52,9 @@ class Sortbyroll implements Comparator<Student>
     // roll number 
     public int compare(Student a, Student b) 
     { 
-       // return a.rollno - b.rollno;
+       // return a.rollno - b.rollno;  //Ascending
     	if(a.rollno<b.rollno) {
-    		return 1;
+    		return 1; //Descending
     	}
     	else {
     		
